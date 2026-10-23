@@ -4,7 +4,7 @@ markdown
 Nutrisnap is an AI-powered nutrition tracker that lets you log your meals with a quick photo upload. Get instant caloric and macro breakdowns on a web dashboard and receive an automated daily summary sent straight to your WhatsApp!
 
 ## 🚀 Features
-- **AI Visual Recognition:** Uses Google Gemini 2.5 Flash to automatically detect foods, estimate portion sizes, and calculate calories.
+- **AI Visual Recognition:** Uses Google Gemini 3.8 Flash to automatically detect foods, estimate portion sizes, and calculate calories.
 - **Persistent Chat Interface:** Interactive Streamlit dashboard to ask follow-up questions about your diet history.
 - **WhatsApp Integration:** Dispatches clean notification summaries directly to your phone using the Twilio Messaging API.
 - **Secure Onboarding:** A streamlined, session-safe onboarding flow for user registration.
