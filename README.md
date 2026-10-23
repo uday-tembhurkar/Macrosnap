@@ -12,7 +12,7 @@ Nutrisnap is an AI-powered nutrition tracker that lets you log your meals with a
 ## 🛠️ Tech Stack
 - **Language:** Python 3.14+
 - **Frontend/UI:** Streamlit
-- **AI Engine:** Google GenAI SDK (`gemini-2.5-flash`)
+- **AI Engine:** Google GenAI SDK (`gemini-3.8-flash`)
 - **Messaging Pipeline:** Twilio WhatsApp Business API
 
 ## 💻 Local Installation & Setup
