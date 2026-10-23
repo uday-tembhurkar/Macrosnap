@@ -1,4 +1,3 @@
-markdown
 # 🥗 Nutrisnap
 
 Nutrisnap is an AI-powered nutrition tracker that lets you log your meals with a quick photo upload. Get instant caloric and macro breakdowns on a web dashboard and receive an automated daily summary sent straight to your WhatsApp!
