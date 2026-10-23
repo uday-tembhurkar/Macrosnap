@@ -1,7 +1,7 @@
 markdown
-# 🥗 MacroSnap
+# 🥗 Nutrisnap
 
-MacroSnap is an AI-powered nutrition tracker that lets you log your meals with a quick photo upload. Get instant caloric and macro breakdowns on a web dashboard and receive an automated daily summary sent straight to your WhatsApp!
+Nutrisnap is an AI-powered nutrition tracker that lets you log your meals with a quick photo upload. Get instant caloric and macro breakdowns on a web dashboard and receive an automated daily summary sent straight to your WhatsApp!
 
 ## 🚀 Features
 - **AI Visual Recognition:** Uses Google Gemini 2.5 Flash to automatically detect foods, estimate portion sizes, and calculate calories.
@@ -20,7 +20,7 @@ MacroSnap is an AI-powered nutrition tracker that lets you log your meals with a
 1. **Clone the repository:**
    ```bash
    git clone https://github.com
-   cd macrosnap-chatbot
+   cd nutrisnap-chatbot
    ```
 
 2. **Create and activate a virtual environment:**

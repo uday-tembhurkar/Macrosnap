@@ -8,7 +8,7 @@ from twilio.rest import Client as TwilioClient
 from prompts import SYSTEM_PROMPT, WELCOME_MESSAGE_TEMPLATE, SUMMARY_REQUEST_PROMPT
 
 MODEL_NAME = "gemini-3.8-flash"
-st.set_page_config(page_title="MacroSnap", page_icon="🥗")
+st.set_page_config(page_title="Nutrisnap", page_icon="🥗")
 
 GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 TWILIO_ACCOUNT_SID = st.secrets["TWILIO_ACCOUNT_SID"]
@@ -72,7 +72,7 @@ def send_whatsapp(to_number, user_name, summary):
 
 #step 2: Building the onboarding screen 
 if "onboarded" not in st.session_state:         #if "onboarded" not in st.session_state is the standard Streamlit pattern for "show this only once per session".
-    st.title("🥗 MacroSnap")
+    st.title("🥗 Nutrisnap")
     st.caption("Snap it. Track it. Text yourself the results.")
     with st.form("onboarding_form"):
         name = st.text_input("Your name")
@@ -107,7 +107,7 @@ if "onboarded" not in st.session_state:         #if "onboarded" not in st.sessio
 header_col, button_col = st.columns([5, 2], vertical_alignment = "center")
 
 with header_col:
-    st.title("🥗 MacroSnap")
+    st.title("🥗 Nutrisnap")
 
 with button_col:
     send_disabled = len(st.session_state.messages) <= 0 
